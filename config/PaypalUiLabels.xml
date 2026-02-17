@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Licensed to the Apache Software Foundation (ASF) under one
+or more contributor license agreements.  See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership.  The ASF licenses this file
+to you under the Apache License, Version 2.0 (the
+"License"); you may not use this file except in compliance
+with the License.  You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+
+<!-- Keep only English language here because of OFBIZ-13095 -->
+
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ofbiz.apache.org/dtds/ofbiz-properties.xsd">
+    <property key="PaypalApplication">
+        <value xml:lang="en">Paypal Advenced Payment Gateway</value>
+        <value xml:lang="it">Gateway pagamento Paypal Advenced</value>
+    </property>
+    <property key="PaypalCompanyName">
+        <value xml:lang="en">MpStyle: PayPal Advanced</value>
+        <value xml:lang="it">MpStyle: PayPal Advanced</value>
+    </property>
+    <property key="PaypalCompanySubtitle">
+        <value xml:lang="en">PayPal Advanced Gateway payment module developed by MpStyle</value>
+        <value xml:lang="it">Modulo Gateway PayPal Advanced sviluppato da MpStyle</value>
+    </property>
+    <property key="PaypalViewPermissionError">
+        <value xml:lang="en">You are not allowed to view this page.</value>
+        <value xml:lang="it">Non sei autorizzato a visualizzare questa pagina.</value>
+    </property>
+    <property key="PaypalWelcomeMessage">
+        <value xml:lang="en">Welcome to Advanced PayPal Payment Gateway Configuration Application!</value>
+        <value xml:lang="it">Benvenuto nell'applicazione di configurazione del gateway di pagamento PayPal Advanced!</value>
+    </property>
+    <property key="PaypalConfigScreenletTitle">
+        <value xml:lang="en">PayPal Gateway Configuration Properties</value>
+        <value xml:lang="it">Parametri di configurazione gateway PayPal</value>
+    </property>
+    <property key="PaypalSummaryScreenletTitle">
+        <value xml:lang="en">Current Gateway Configuration Parameters</value>
+        <value xml:lang="it">Attuale configurazione parametri gateway</value>
+    </property>
+    <property key="PaypalEditPropScreenletTitle">
+        <value xml:lang="en">Edit Configuration Property</value>
+        <value xml:lang="it">Modifica parametro di configurazione</value>
+    </property>
+    <property key="PaypalNewPropScreenletTitle">
+        <value xml:lang="en">New Configuration Property</value>
+        <value xml:lang="it">Nuovo parametro di configurazione</value>
+    </property>
+    <property key="PaypalUpdatePropertyValue">
+        <value xml:lang="en">Update</value>
+        <value xml:lang="it">Aggiorna</value>
+    </property>
+    <property key="PaypalCreatePropertyValue">
+        <value xml:lang="en">Create</value>
+        <value xml:lang="it">Crea</value>
+    </property>
+    <property key="PaypalUpdateConfirmMessage">
+        <value xml:lang="en">Update the current value?</value>
+        <value xml:lang="it">Confermi la modifica?</value>
+    </property>
+    <property key="PaypalCreateConfirmMessage">
+        <value xml:lang="en">Create the value?</value>
+        <value xml:lang="it">Confermi la creazione del nuovo parametro?</value>
+    </property>
+    <property key="PaypalPropDescTooltip">
+        <value xml:lang="en">Short description for the property</value>
+        <value xml:lang="it">Breve descrizione del parametro</value>
+    </property>
+
+    <!-- Menù Labels -->
+    <property key="MenuItemConfig">
+        <value xml:lang="en">Configuration</value>
+        <value xml:lang="it">Configurazione</value>
+    </property>
+    <property key="ConfigProperties">
+        <value xml:lang="en">Configuration Properties</value>
+        <value xml:lang="it">Parametri di configurazione</value>
+    </property>
+    <property key="GatewayConfigSummary">
+        <value xml:lang="en">Gateway Parameters Configuration Summary</value>
+        <value xml:lang="it">Riepilogo Configurazione Parametri Gateway</value>
+    </property>
+    <property key="EditConfigProperties">
+        <value xml:lang="en">Edit</value>
+        <value xml:lang="it">Modifica</value>
+    </property>
+    <property key="DeleteConfigProperties">
+        <value xml:lang="en">Delete</value>
+        <value xml:lang="it">Elimina</value>
+    </property>
+    <property key="NewConfigProperty">
+        <value xml:lang="en">Create new configuration property</value>
+        <value xml:lang="it">Crea un nuovo parametro di configurazione</value>
+    </property>
+    <property key="DeleteConfigProperties">
+        <value xml:lang="en">Delete</value>
+        <value xml:lang="it">Elimina</value>
+    </property>
+    <!-- Static values -->
+    <property key="ConfigPropEnvTest">
+        <value xml:lang="en">Test environment</value>
+        <value xml:lang="it">Ambiente sandbox</value>
+    </property>
+    <property key="ConfigPropEnvProd">
+        <value xml:lang="en">Production environment</value>
+        <value xml:lang="it">Ambiente di produzione</value>
+    </property>
+
+    <!-- Checkout template labels -->
+    <property key="PaypalCheckoutErrorTitle">
+        <value xml:lang="en">PayPal Checkout Error</value>
+        <value xml:lang="it">Errore Checkout PayPal</value>
+    </property>
+    <property key="PaypalCheckoutErrorTitle">
+        <value xml:lang="en">PayPal Checkout Error</value>
+        <value xml:lang="it">Errore Checkout PayPal</value>
+    </property>
+    <property key="PaypalIssueName">
+        <value xml:lang="en">Issue Name</value>
+        <value xml:lang="it">Nome errore</value>
+    </property>
+    <property key="PaypalIssueMessage">
+        <value xml:lang="en">Issue Message</value>
+        <value xml:lang="it">Messaggio errore</value>
+    </property>
+    <property key="PaypalIssueDetail">
+        <value xml:lang="en">Issue Detail Message</value>
+        <value xml:lang="it">Dettaglio errore</value>
+    </property>
+    <property key="BackToSite">
+        <value xml:lang="en">Back To Site</value>
+        <value xml:lang="it">Torna al sito</value>
+    </property>
+    <property key="PaypalOr">
+        <value xml:lang="en">OR</value>
+        <value xml:lang="it">OPPURE</value>
+    </property>
+
+    <!-- PayPal Interface labels -->
+    <property key="InterfaceMetaTitle">
+        <value xml:lang="en">PayPal</value>
+        <value xml:lang="it">PayPal</value>
+    </property>
+    <property key="InterfaceTitleClickToPay">
+        <value xml:lang="en">Click the button below to complete the payment</value>
+        <value xml:lang="it">Clicca il bottone sottostante per completare il pagamento</value>
+    </property>
+    <property key="InterfaceTitleThankyouForYourOrder">
+        <value xml:lang="en">Thank You for your order!</value>
+        <value xml:lang="it">Grazie per il tuo ordine!</value>
+    </property>
+    <property key="InterfaceMessageEmailConfirmOrder">
+        <value xml:lang="en">You will soon receive a confirmation email for your order. Check your inbox.</value>
+        <value xml:lang="it">A breve riceverai una mail di conferma ordine.</value>
+    </property>
+    <property key="InterfaceTitleOrderCancelled">
+        <value xml:lang="en">Order cancelled</value>
+        <value xml:lang="it">Ordine cancellato</value>
+    </property>
+    <property key="InterfaceTitleError">
+        <value xml:lang="en">An unexpected error occured</value>
+        <value xml:lang="it">Si è verificato un errore imprevisto</value>
+    </property>
+    <property key="InterfacePayPalError">
+        <value xml:lang="en">PAYPAL ERROR</value>
+        <value xml:lang="it">ERRORE PAYPAL</value>
+    </property>
+    <property key="InterfacePayPalSuccess">
+        <value xml:lang="en">PAYPAL SUCCESS</value>
+        <value xml:lang="it">SUCCESSO PAYPAL</value>
+    </property>
+    <property key="InterfacePayPalTransactionError">
+        <value xml:lang="en">Sorry, your transaction could not be processed</value>
+        <value xml:lang="it">Spiacenti, non è stato possibile elaborare la sua transazione</value>
+    </property>
+    <property key="InterfacePayPalTransactionCompleted">
+        <value xml:lang="en">Transaction completed (PayPal ID/Status/Order Shop ID)</value>
+        <value xml:lang="it">Transazione completata (PayPal ID/Status/ID Ordine Shop)</value>
+    </property>
+    <property key="InterfacePayPalYourOrderHasBeenCancelled">
+        <value xml:lang="en">Your order has been cancelled</value>
+        <value xml:lang="it">Il tuo ordine è stato cancellato</value>
+    </property>
+    <property key="InterfacePayPalErrorContactForHelp">
+        <value xml:lang="en">Contact customer service for assistance making sure to attach to the message the errors reported below.</value>
+        <value xml:lang="it">Contatta il servizio di customer service per ricevere assistenza avendo cura di allegare al messaggio gli errori qui sotto riportati.</value>
+    </property>
+    <property key="ProcessingMessage">
+        <value xml:lang="en">Processing payment, please wait and do not close the page</value>
+        <value xml:lang="it">Elaborazione in corso, non chiudere la pagina</value>
+    </property>
+    <!--  Card fields labels -->
+    <property key="MandatoryFields">
+        <value xml:lang="en">Fields marked with * are mandatory for card payment</value>
+        <value xml:lang="it">I campi indicati con * sono obbligatori per il pagamento con carta</value>
+    </property>
+    <property key="MandatoryField">
+        <value xml:lang="en">The field is mandatory</value>
+        <value xml:lang="it">Il campo è obbligatorio</value>
+    </property>
+    <property key="CardNumber">
+        <value xml:lang="en">Card Number</value>
+        <value xml:lang="it">Numero carta</value>
+    </property>
+    <property key="ExpirationDate">
+        <value xml:lang="en">Expiration Date</value>
+        <value xml:lang="it">Data di scadenza</value>
+    </property>
+    <property key="NameOnCard">
+        <value xml:lang="en">Name on Card</value>
+        <value xml:lang="it">Titolare della carta</value>
+    </property>
+    <property key="BillingAddress">
+        <value xml:lang="en">Billing Address</value>
+        <value xml:lang="it">Indirizzo di fatturazione</value>
+    </property>
+    <property key="StreetName">
+        <value xml:lang="en">Street name</value>
+        <value xml:lang="it">Via/piazza</value>
+    </property>
+    <property key="Unit">
+        <value xml:lang="en">Unit</value>
+        <value xml:lang="it">Interno</value>
+    </property>
+    <property key="City">
+        <value xml:lang="en">City</value>
+        <value xml:lang="it">Città</value>
+    </property>
+    <property key="StateCountry">
+        <value xml:lang="en">State/Country</value>
+        <value xml:lang="it">Stato/Nazione</value>
+    </property>
+    <property key="PostalCode">
+        <value xml:lang="en">ZIP Code</value>
+        <value xml:lang="it">CAP</value>
+    </property>
+    <property key="CountryCode">
+        <value xml:lang="en">Country Code</value>
+        <value xml:lang="it">Codice Nazione</value>
+    </property>
+    <property key="Pay">
+        <value xml:lang="en">Pay</value>
+        <value xml:lang="it">Paga</value>
+    </property>
+</resource>
