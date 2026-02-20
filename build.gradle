@@ -22,6 +22,7 @@ dependencies {
 
     //pluginLibsCompile 'junit:junit-dep:4.10'
     //pluginLibsRuntime 'junit:junit-dep:4.10'
+    pluginLibsCompile 'com.google.code.gson:gson:2.10.1'
 }
 
 task install {

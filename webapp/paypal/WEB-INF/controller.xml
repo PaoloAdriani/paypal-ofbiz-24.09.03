@@ -116,25 +116,25 @@ under the License.
     </request-map>
     <request-map uri="paypalCreateOrder">
         <security https="true"/>
-        <event type="java" path="org.ofbiz.paypal.PaypalSDKEvents" invoke="createOrderRequest"/>
+        <event type="java" path="paypal.PaypalSDKEvents" invoke="createOrderRequest"/>
         <response name="success" type="none" value="none"/>
         <response name="error" type="none" value="none"/>
     </request-map>
     <request-map uri="paypalCreateOrder3DSHosted">
         <security https="true"/>
-        <event type="java" path="org.ofbiz.paypal.PaypalSDKEvents" invoke="createOrder3DSHostedRequest"/>
+        <event type="java" path="paypal.PaypalSDKEvents" invoke="createOrder3DSHostedRequest"/>
         <response name="success" type="none" value="none"/>
         <response name="error" type="none" value="none"/>
     </request-map>
     <request-map uri="paypalCaptureOrder">
         <security https="true"/>
-        <event type="java" path="org.ofbiz.paypal.PaypalSDKEvents" invoke="captureOrderRequest"/>
+        <event type="java" path="paypal.PaypalSDKEvents" invoke="captureOrderRequest"/>
         <response name="success" type="none" value="none"/>
         <response name="error" type="none" value="none"/>
     </request-map>
     <request-map uri="paypalCancelOrder">
         <security https="true"/>
-        <event type="java" path="org.ofbiz.paypal.PaypalSDKEvents" invoke="cancelOrderRequest"/>
+        <event type="java" path="paypal.PaypalSDKEvents" invoke="cancelOrderRequest"/>
         <response name="success" type="none" value="none"/>
         <response name="error" type="none" value="none"/>
     </request-map>
