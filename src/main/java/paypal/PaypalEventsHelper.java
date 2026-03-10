@@ -122,6 +122,8 @@ public class PaypalEventsHelper {
         String username = getServiceUsername(delegator);
         String password = getServicePassword(delegator);
 
+        Debug.logWarning("#### ORDER NOTE MESSAGE => " + noteMsg, module);
+
         Map<String, Object> inMap = new HashMap<>();
         inMap.put("internalNote", "Y");
         inMap.put("orderId", orderId);
@@ -608,7 +610,7 @@ public class PaypalEventsHelper {
      */
     public static String getServiceUsername(Delegator delegator) {
         //return EntityUtilProperties.getPropertyValue(MP_SYSTEM_RESOURCE_ID, "serviceUsername", "", delegator);
-        return EntityUtilProperties.getPropertyValue(MPOMNI_SYSTEM_RESOURCE_ID, "serviceUsername", "", delegator);
+        return EntityUtilProperties.getPropertyValue(MP_SYSTEM_RESOURCE_ID, "serviceUsername", "", delegator);
     }
 
     /**
@@ -620,7 +622,7 @@ public class PaypalEventsHelper {
      */
     public static String getServicePassword(Delegator delegator) {
         //return EntityUtilProperties.getPropertyValue(MP_SYSTEM_RESOURCE_ID, "servicePassword", delegator);
-        return EntityUtilProperties.getPropertyValue(MPOMNI_SYSTEM_RESOURCE_ID, "servicePassword", delegator);
+        return EntityUtilProperties.getPropertyValue(MP_SYSTEM_RESOURCE_ID, "servicePassword", delegator);
     }
 
     /**

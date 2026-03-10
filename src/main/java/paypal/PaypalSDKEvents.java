@@ -104,7 +104,7 @@ public class PaypalSDKEvents {
             Debug.logInfo(msg, module);
 
             PaypalEventsHelper.setOrderHeaderPayPalOrderId(payPalOrderId, orderId, delegator);
-            String noteMsgOrderCreated = "PayPal Order created with ID => " + payPalOrderId + " and Status => " + payPalOrderStatus;
+            String noteMsgOrderCreated = "PayPal Order created with ID: " + payPalOrderId + " and Status: " + payPalOrderStatus;
             if (!PaypalEventsHelper.createOrderNote(orderId, noteMsgOrderCreated, dispatcher, delegator)) {
                 msg = "Error in creating OrderHeader note for order [" + orderId + "]";
                 if (logger != null) logger.logError(msg);
@@ -192,7 +192,7 @@ public class PaypalSDKEvents {
 
                 PaypalEventsHelper.setOrderHeaderPayPalOrderId(payPalOrderId, orderId, delegator);
 
-                String noteMsgOrderCreated = "PayPal Order created with ID => " + payPalOrderId + " and Status => " + payPalOrderStatus;
+                String noteMsgOrderCreated = "PayPal Order created with ID: " + payPalOrderId + " and Status: " + payPalOrderStatus;
                 if (!PaypalEventsHelper.createOrderNote(orderId, noteMsgOrderCreated, dispatcher, delegator)) {
                     Debug.logError("Error in creating OrderHeader note for order [" + orderId + "].", module);
                 }
@@ -308,7 +308,7 @@ public class PaypalSDKEvents {
             Debug.logInfo(msg, module);
 
             PaypalEventsHelper.setOrderHeaderPayPalOrderId(payPalOrderId, orderId, delegator);
-            String noteMsgOrderCreated = "PayPal Order created with ID => " + payPalOrderId + " and Status => " + payPalOrderStatus;
+            String noteMsgOrderCreated = "PayPal Order created with ID: " + payPalOrderId + " and Status: " + payPalOrderStatus;
             if (!PaypalEventsHelper.createOrderNote(orderId, noteMsgOrderCreated, dispatcher, delegator)) {
                 msg = "Error in creating OrderHeader note for order [" + orderId + "]";
                 if (logger != null) logger.logError(msg);
@@ -395,7 +395,7 @@ public class PaypalSDKEvents {
 
                 PaypalEventsHelper.setOrderHeaderPayPalOrderId(payPalOrderId, orderId, delegator);
 
-                String noteMsgOrderCreated = "PayPal Order created with ID => " + payPalOrderId + " and Status => " + payPalOrderStatus;
+                String noteMsgOrderCreated = "PayPal Order created with ID: " + payPalOrderId + " and Status: " + payPalOrderStatus;
                 if (!PaypalEventsHelper.createOrderNote(orderId, noteMsgOrderCreated, dispatcher, delegator)) {
                     Debug.logError("Error in creating OrderHeader note for order [" + orderId + "].", module);
                 }
@@ -647,7 +647,7 @@ public class PaypalSDKEvents {
                             avs_code = (processorStatusMap.get("avs_code") != null) ? processorStatusMap.get("avs_code") : "";
                             cvv_code = (processorStatusMap.get("cvv_code") != null) ? processorStatusMap.get("cvv_code") : "";
 
-                            msg += "Card processor => response_code:" + cardResponseCode + ",avs_code:" + avs_code + ",cvv_code:" + cvv_code;
+                            msg += "Card processor response_code:" + cardResponseCode + ",avs_code:" + avs_code + ",cvv_code:" + cvv_code;
                         }
 
                         if (logger != null) logger.logError(msg);
